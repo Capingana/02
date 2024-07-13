@@ -9,6 +9,7 @@
     <meta name="author" content="SABINO CAPINGANA" />
     <title>SIS | SISTEMA DE INSCRIÇÃO E SELEÇÃO DE CANDIDATOS</title>
     <link href="css/styles.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="/img/school.png" type="image/x-icon">
     <link href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" rel="stylesheet"
         crossorigin="anonymous" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js"
@@ -34,8 +35,9 @@
                             </ol>
                             <div class="card mb-4">
                                 <div class="card-header">
-                                    <i class="fas fa-users mr-1"></i>
-                                    <%=lista_de_candidatos %>
+                                <a href="/cadastrar-candidato" class="btn btn-outline-primary">
+                                    <i class="fas fa-user mr-3"></i>Adicionar Candidato
+                                </a>                                     
                                 </div>
                                 <div class="card-body">
                                     <div class="table-responsive">
